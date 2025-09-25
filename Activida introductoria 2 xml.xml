@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listado_de_libros>
+    <libro_1>
+        <nombre>El señor de los anillos: La comunidad del anillo</nombre>
+        <autor>J.R.R Tolkien</autor>
+        <editorial>Booket</editorial>
+        <ISBN>8445013955</ISBN>
+        <fecha_de_publicación_de_la_edición>31 agosto de 2022</fecha_de_publicación_de_la_edición>
+        <idioma>Español</idioma>
+        <género>Fantasía épica</género>
+        <formato>libro físico</formato>
+        <precio>10,95€</precio>
+    </libro_1>
+    <libro_2>
+        <nombre>1984</nombre>
+        <autor>George Orwell</autor>
+        <editorial>Debolsillo</editorial>
+        <ISBN>8466373764</ISBN>
+        <fecha_de_publicación_de_la_edición>5 de junio de 2025</fecha_de_publicación_de_la_edición>
+        <idioma>Español</idioma>
+        <género>Distopía, ciencia ficciín, novela política</género>
+        <formato>libro físico</formato>
+        <precio>8,95€</precio>
+    </libro_2>
+</listado_de_libros>
+        

@@ -1,7 +1,7 @@
-# Nombre del módulo
-Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje de marcas
+# Lenguaje de marcas
+Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje de marcas.Pulse en el nombre del ejercicio para abrirlo.
 
-## Tema 1 - Nombre tema 1
+## Tema 1 - HTML 
 
 | Ejercicio  | Descripción              |
 |------------|--------------------------|

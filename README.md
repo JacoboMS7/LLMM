@@ -5,6 +5,6 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 
 | Ejercicio  | Descripción              |
 |------------|--------------------------|
-| Ejercicio 1 | Breve descripción 0.1    |
+| Ejercicio 1 |Estas son las actividades introductorias del tema 1 HTML   |
 |  |    |
 |       |                    |

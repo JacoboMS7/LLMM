@@ -1,5 +1,5 @@
 # Lenguaje de marcas
-Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje de marcas. Pulse en el nombre del ejercicio para abrirlo.
+Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje de marcas.
 
 ## Tema 1 - HTML 
 

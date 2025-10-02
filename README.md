@@ -5,6 +5,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 
 | Ejercicio  | Descripción              |
 |------------|--------------------------|
-| [Ejercicio introductorio 1](file:///D:/SALVA/FOTOS%20Y%20VIDEO/OneDrive/Escritorio/Actividad%20introductoria%201.html) |Esta es la actividad introductoria 1 en HTML   |
+| [Ejercicio introductorio 1](https://JacoboMS7.github.io/LLMM/Actividad%20introductoria%201.html
+) |Esta es la actividad introductoria 1 en HTML   |
 |  |    |
 |       |                    |

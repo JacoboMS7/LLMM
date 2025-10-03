@@ -8,4 +8,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio introductorio 1](https://JacoboMS7.github.io/LLMM/Actividad%20introductoria%201.html) |Esta es la actividad introductoria 1 en HTML   |
 | [Ejercicio introductorio 2](https://JacoboMS7.github.io/LLMM/Activida%20introductoria%202%20xml.xml) |  Esta es la actividad introductoria 1 en XML  |
 | [Ejercicio introductorio 3](https://JacoboMS7.github.io/LLMM/act%20introductoria%203.html)    |  Esta es la actividad introductoria 3 en HTML                  |
-| [Ejercicio introductorio 4](https://github.com/JacoboMS7/Prueba) | Este es el repositorio de prueba
+| [Ejercicio introductorio 4](https://github.com/JacoboMS7/Prueba) | Este es el repositorio de prueba |
+| [Ejercicio 1](https://JacoboMS7.github.io/LLMM/ejercicio1.html) |Este es el ejercicio 1 de HTML |
+| [Ejercicio 2](https://JacoboMS7.github.io/LLMM/ejercicio2.html) |Este es el ejercicio 2 de HTML |
+| [Ejercicio 3](https://JacoboMS7.github.io/LLMM/ejercicio3.html) |Este es el ejercicio 3 de HTML |
+| [Ejercicio 4](https://JacoboMS7.github.io/LLMM/ejercicio4.html) |Este es el ejercicio 4 de HTML |

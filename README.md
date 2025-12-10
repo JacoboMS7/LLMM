@@ -20,5 +20,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 9](https://jacoboms7.github.io/LLMM/ejercicio9/) |Este es el ejercicio 11 de HTML |
 | [Ejercicio 10](https://JacoboMS7.github.io/LLMM/Ejercicio10.html) |Este es el ejercicio 10 de HTML |
 | [Ejercicio 11](https://JacoboMS7.github.io/LLMM/Ejercicio11.html) |Este es el ejercicio 11 de HTML |
+| [Ejercicio 12](https://JacoboMS7.github.io/LLMM/Ejercicio12.html) |Este es el ejercicio 12 de HTML |
+| [Ejercicio 13](https://JacoboMS7.github.io/LLMM/Ejercicio13.html) |Este es el ejercicio 13 de HTML |
+| [Ejercicio 14](https://JacoboMS7.github.io/LLMM/Ejercicio14.html) |Este es el ejercicio 14 de HTML |
 | [Ejercicio 27](https://jacoboms7.github.io/LLMM/ejercicio27/ejercicio27.html) |Este es el ejercicio 11 de HTML |
 

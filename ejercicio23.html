@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio23</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        .menu {
+            background: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .menu a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 6px 10px;
+            border-radius: 4px;
+        }
+
+        .contenedor {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .marco {
+            width: 90%;
+            height: 600px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="https://es.wikipedia.org/wiki/HTML" target="visor">html</a> |
+        <a href="https://es.wikipedia.org/wiki/CSS" target="visor">css</a> |
+        <a href="https://es.wikipedia.org/wiki/JavaScript" target="visor">javascript</a> |
+        <a href="https://es.wikipedia.org/wiki/Ajax" target="visor">Ajax</a>
+    </div>
+
+    <div class="contenedor">
+        <iframe class="marco" name="visor" src="https://es.wikipedia.org/wiki/HTML"></iframe>
+    </div>
+
+</body>
+</html>
+

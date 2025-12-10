@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de reproductores MP3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        caption {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #666;
+            text-align: left;
+            caption-side: top;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+
+        .row-header {
+            background-color: #f9f9f9;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .mp3-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .mp3-images img {
+            width: 40px;
+            height: auto;
+        }
+
+        .category-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .storage-info {
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .color-circles {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .color-circles img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparativa de reproductores MP3</h1>
+    
+    <table summary="Tabla que compara las características técnicas de diferentes modelos de reproductores MP3, incluyendo capacidad de almacenamiento, colores disponibles, tipo de pantalla y tiempo de carga">
+        <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+        
+        <tr>
+            <th scope="col" abbr="Característica"></th>
+            <th scope="col" colspan="3" abbr="MP3 mini">
+                <div class="mp3-images">
+                    <!-- PON AQUÍ LA IMAGEN 1 DEL MP3 MINI (plateado) -->
+                    <img src="mp3_pequeno_blanco.png" alt="MP3 mini blanco">
+                    <!-- PON AQUÍ LA IMAGEN 2 DEL MP3 MINI (negro) -->
+                    <img src="mp3_pequeno_negro.png" alt="MP3 mini negro">
+                </div>
+                <div class="category-title">MP3 mini</div>
+            </th>
+            <th scope="col" colspan="2" abbr="MP3 grande">
+                <div class="mp3-images">
+                    <!-- PON AQUÍ LA IMAGEN 1 DEL MP3 GRANDE (plateado) -->
+                    <img src="mp3_grande_blanco.png" alt="MP3 grande blanco">
+                    <!-- PON AQUÍ LA IMAGEN 2 DEL MP3 GRANDE (negro) -->
+                    <img src="mp3_grande_negro.png" alt="MP3 grande negro">
+                </div>
+                <div class="category-title">MP3 grande</div>
+            </th>
+        </tr>
+        
+        <tr>
+            <th scope="row" class="row-header" abbr="Capacidad">Capacidad de<br>almacenamiento</th>
+            <td class="storage-info">
+                <strong>4GB</strong><br>
+                (1.000<br>
+                canciones)
+            </td>
+            <td class="storage-info">
+                <strong>8GB</strong><br>
+                (2.000<br>
+                canciones)
+            </td>
+            <td class="storage-info">
+                <strong>16GB</strong><br>
+                (4.000<br>
+                canciones)
+            </td>
+            <td class="storage-info">
+                <strong>30GB</strong><br>
+                (7.500<br>
+                canciones)
+            </td>
+            <td class="storage-info">
+                <strong>80GB</strong><br>
+                (20.000<br>
+                canciones)
+            </td>
+        </tr>
+        
+        <tr>
+            <th scope="row" class="row-header" abbr="Colores">Colores</th>
+            <td>
+                <div class="color-circles">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO PLATEADO -->
+                    <img src="color-plateado.png" alt="Color plateado">
+                </div>
+            </td>
+            <td>
+                <div class="color-circles">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO GRIS -->
+                    <img src="color-gris.png" alt="Color gris">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO VERDE -->
+                    <img src="color-verde.png" alt="Color verde">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO AZUL -->
+                    <img src="color-azul.png" alt="Color azul">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO ROSA -->
+                    <img src="color-rosa.png" alt="Color rosa">
+                </div>
+            </td>
+            <td>
+                <div class="color-circles">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO GRIS OSCURO -->
+                    <img src="color-gris-oscuro.png" alt="Color gris oscuro">
+                </div>
+            </td>
+            <td>
+                <div class="color-circles">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO GRIS CLARO -->
+                    <img src="color-gris-claro.png" alt="Color gris claro">
+                    <!-- PON AQUÍ LA IMAGEN DEL CÍRCULO NEGRO -->
+                    <img src="color-negro.png" alt="Color negro">
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th scope="row" class="row-header" abbr="Pantalla">Pantalla</th>
+            <td colspan="3">LCD de 3 cm (diagonal) con<br>retroiluminación</td>
+            <td colspan="2">LCD de 6 cm (diagonal)<br>con retroiluminación</td>
+        </tr>
+        
+        <tr>
+            <th scope="row" class="row-header" abbr="Carga" rowspan="2">Tiempo de<br>carga</th>
+            <td colspan="3" rowspan="2">Unas 3 horas</td>
+            <td colspan="2">Unas 4 horas</td>
+        </tr>
+        <tr>
+            <td colspan="2">Unas 2 horas para<br>alcanzar el 80% de la<br>capacidad</td>
+        </tr>
+    </table>
+</body>
+</html
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U</title>
+    
+    <style>
+        body {
+            background-image: url(fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif; 
+            color: #fff;
+        }
+        .encabezado {
+            display: flex;
+            align-items: center;
+            background-color: rgba(50, 50, 50, 0.7); 
+            padding: 30px;
+            border-radius: 15px; 
+            margin-top: 80px;
+            margin-bottom: 50px;
+            max-width: 900px;
+            width: 90%; 
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            
+        }
+
+        .encabezado:hover {
+            background-color: rgba(60, 60, 60, 0.85);
+        }
+
+        .encabezado img {
+            margin-right: 30px;
+            display: block;
+            max-height: 100px; 
+            border-radius: 8px; 
+        }
+
+        .encabezado h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0;
+            white-space: nowrap;
+            color: #e0e0e0; 
+        }
+        .introduccion,.logosLLMM {
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: rgba(50, 50, 50, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            width: 90%;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            
+        }
+        .introduccion:hover,.logosLLMM:hover {
+            background-color: rgba(60, 60, 60, 0.85);
+        }
+        .logosLLMM img {
+            max-height: 150px; 
+            max-width: 150px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1); 
+            border-radius: 10px;
+            
+        }
+        .logosLLMM img:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .idiomas{
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .español:hover{
+             transform: translateY(-10px);
+        }
+        .pdf{
+            padding: 10px;
+            font-size: large;
+            text-align: right;
+            text-align: right;
+            display: flex;
+            background-color:rgba(50, 50, 50, 0.7);
+            border-radius: 15px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="encabezado">
+        <img src="web4you-logo-md.png" alt="Web4U logo">
+        <h1>Jacobo Martín Salamanca 1ºDAW</h1>
+    </div>
+    <div class="introduccion">
+        <h2>Welcome to the main menu, click on the language logo you want to learn</h2>
+    </div>
+    <div class="logosLLMM">
+        
+        <div class="html">
+            <a href="htmlIngles.html" target="_self" title="Go to HTML documentation">
+                <img src="html.png" alt="html logo">
+            </a>
+        </div>
+        
+        <div class="css">
+            <a href="cssIngles.html" target="_self" title="Go to CSS documentation">
+                <img src="css.png" alt="css logo">
+            </a>
+        </div>
+        
+        <div class="svg">
+            <a href="svgIngles.html" target="_self" title="Go to SVG documentation">
+                <img src="svg.png" alt="svg logo">
+            </a>
+        </div>
+    </div>
+    <div class="idiomas">
+        <a href="mainEspañol.html" target="_self" title="transaltion">
+        <img class="español" src="Bandera_de_España.png" alt="flag to change language to Spanish" width="150px" height="100px">
+        </a>
+    </div>
+    <div class="pdf">
+        <a href="mainIngles.pdf" target="_blank">PDF</a>
+    </div>
+</body>
+</html>

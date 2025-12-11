@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U</title>
+
+    <style>
+        body {
+            background-image: url(fondoExplicaciones.png);
+            color: black;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .encabezado {
+            display: flex;
+            align-items: center;
+            background-color: #B0B0B0;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 900px;
+            width: 90%;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .encabezado img {
+            margin-right: 30px;
+            display: block;
+            max-height: 100px;
+            border-radius: 8px;
+        }
+        .encabezado:hover{
+            background-color: #D1D1D1;
+            transform: translateY(-10px);
+        }
+        .titulo {
+            text-align: center;
+        }
+        .titulo h1 {
+            background-color: #B0B0B0;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .titulo:hover h1 {
+            background-color: #D1D1D1;
+        }
+        .color, .background, .fsize, .margin, .border {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #B0B0B0;
+            border-radius: 10px;
+            width: 800px;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+        }
+        .color:hover, .background:hover, .fsize:hover, .margin:hover, .border:hover {
+            background-color: #D1D1D1;
+        }
+        pre {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        pre:hover {
+            background-color: black;
+        }
+        .menúPrincipal{
+            display: flex;
+            text-decoration: none;
+            color: black;
+        }
+        .idiomas{
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .ingles:hover{
+             transform: translateY(-10px);
+        }
+        .pdf{
+            padding: 10px;
+            font-size: large;
+            text-align: right;
+            text-align: right;
+            display: flex;
+            background-color:#B0B0B0;
+            border-radius: 15px; 
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 37px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="encabezado">
+        <a href="mainEspañol.html" target="_self" class="menúPrincipal">
+            <img src="web4you-logo-md.png" alt="logo de Web4U">
+            <h1>Jacobo Martín Salamanca 1ºDAW</h1>
+        </a>
+    </div>
+
+    <div class="titulo">
+        <h1>
+            Explicación de 5 propiedades CSS<br>
+            Pulse en el encabezado para volver al<br>
+            menú principal
+        </h1>
+    </div>
+
+    <div class="color">
+        <h2>1. color</h2>
+        <p><strong>Descripción:</strong> Cambia el color del texto dentro de un elemento. Se usa para resaltar títulos, párrafos o color, y definir jerarquía visual.</p>
+        <ul>
+            <li><strong>Valores:</strong> nombres de color, hex, rgb, hsl.</li>
+        </ul>
+        <pre><code>p {
+    color: red;
+}</code></pre>
+
+        <p>Resultado:</p>
+        <iframe src="css1.html" title="ejemplo color"></iframe>
+        <p><a href="https://www.w3schools.com/cssref/css_colors.php" target="_blank">Más información</a></p>
+    </div>
+
+    <div class="background">
+        <h2>2. background-color</h2>
+        <p><strong>Descripción:</strong> Define el color de fondo de un elemento. Se usa para destacar secciones, separar bloques visuales o dar identidad al diseño.</p>
+        <ul>
+            <li><strong>Valores:</strong> hex, rgb, hsl, nombres de color.</li>
+        </ul>
+        <pre><code>body {
+    background-color: lightblue;
+}</code></pre>
+<p>Resultado:</p>
+        <iframe src="css2.html" title="ejemplo background"></iframe>
+        <p><a href="https://www.w3schools.com/css/css_background.asp" target="_blank">Más información</a></p>
+    </div>
+
+    <div class="fsize">
+        <h2>3. font-size</h2>
+        <p><strong>Descripción:</strong> Controla el tamaño del texto. Se usa para establecer jerarquía visual como títulos grandes y textos secundarios más pequeños.</p>
+        <ul>
+            <li><strong>Valores:</strong> px, em, rem, %.</li>
+        </ul>
+        <pre><code>p {
+    font-size: 32px;
+}</code></pre>
+<p>Resultado:</p>
+        <iframe src="css3.html" title="ejemplo font size"></iframe>
+        <p><a href="https://www.w3schools.com/css/css_font_size.asp" target="_blank">Más información</a></p>
+    </div>
+
+    <div class="margin">
+        <h2>4. margin</h2>
+        <p><strong>Descripción:</strong> Define el espacio externo alrededor de los elementos. Se usa para separar cajas, párrafos, imágenes o cualquier elemento entre sí.</p>
+        <ul>
+            <li><strong>Valores:</strong> 1, 2 o 4 valores (arriba, derecha, abajo, izquierda).</li>
+        </ul>
+        <pre><code>p {
+    margin: 50px 80px;
+}</code></pre>
+<p>Resultado:</p>
+        <iframe src="css4.html" title="ejemplo margin"></iframe>
+        <p><a href="https://www.w3schools.com/Css/css_margin.asp" target="_blank">Más información</a></p>
+    </div>
+
+    <div class="border">
+        <h2>5. border</h2>
+        <p><strong>Descripción:</strong> Crea un borde alrededor de un elemento. Se usa para destacar secciones, crear contenedores o marcar límites visuales.</p>
+        <ul>
+            <li><strong>Componentes:</strong> grosor, estilo y color.</li>
+            <li><strong>Estilos comunes:</strong> solid, dashed, dotted.</li>
+        </ul>
+        <pre><code>p {
+    border: 2px solid black;
+}</code></pre>
+<p>Resultado:</p>
+        <iframe src="css5.html" title="ejemplo border"></iframe>
+        <p><a href="https://www.w3schools.com/css/css_border.asp" target="_blank">Más información</a></p>
+    </div>
+        <div class="idiomas">
+        <a href="cssIngles.html" target="_self">
+        <img class="ingles" src="banderaUK.png" alt="bandera para cambiar el idioma al ingles" width="150px" height="100px">
+        </a>
+    </div>
+    <div class="pdf">
+        <a href="cssEspañol.pdf" target="_blank">PDF</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U</title>
+    
+    <style>
+        body {
+            background-image: url(fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif; 
+            color: #fff;
+        }
+        .encabezado {
+            display: flex;
+            align-items: center;
+            background-color: rgba(50, 50, 50, 0.7); 
+            padding: 30px;
+            border-radius: 15px; 
+            margin-top: 80px;
+            margin-bottom: 50px;
+            max-width: 900px;
+            width: 90%; 
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            
+        }
+
+        .encabezado:hover {
+            background-color: rgba(60, 60, 60, 0.85);
+        }
+
+        .encabezado img {
+            margin-right: 30px;
+            display: block;
+            max-height: 100px; 
+            border-radius: 8px; 
+        }
+
+        .encabezado h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0;
+            white-space: nowrap;
+            color: #e0e0e0; 
+        }
+        .introduccion,.logosLLMM {
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: rgba(50, 50, 50, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            width: 90%;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            
+        }
+        .introduccion:hover,.logosLLMM:hover {
+            background-color: rgba(60, 60, 60, 0.85);
+        }
+        .logosLLMM img {
+            max-height: 150px; 
+            max-width: 150px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1); 
+            border-radius: 10px;
+            
+        }
+        .logosLLMM img:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .idiomas{
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .ingles:hover{
+             transform: translateY(-10px);
+        }
+        .pdf{
+            padding: 10px;
+            font-size: large;
+            text-align: right;
+            text-align: right;
+            display: flex;
+            background-color:rgba(50, 50, 50, 0.7);
+            border-radius: 15px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="encabezado">
+        <img src="web4you-logo-md.png" alt="logo de Web4U">
+        <h1>Jacobo Martín Salamanca 1ºDAW</h1>
+    </div>
+    <div class="introduccion">
+        <h2>Bienvenido al menú principal, haga click en el logo del lenguaje que quieras aprender</h2>
+    </div>
+    <div class="logosLLMM">
+        
+        <div class="html">
+            <a href="htmlEspañol.html" target="_self" title="Ir a la documentación de HTML">
+                <img src="html.png" alt="logo html">
+            </a>
+        </div>
+        
+        <div class="css">
+            <a href="cssEspañol.html" target="_self" title="Ir a la documentación de CSS">
+                <img src="css.png" alt="logo css">
+            </a>
+        </div>
+        
+        <div class="svg">
+            <a href="svgEspañol.html" target="_self" title="Ir a la documentación de SVG">
+                <img src="svg.png" alt="logo svg">
+            </a>
+        </div>
+    </div>
+    <div class="idiomas">
+        <a href="mainIngles.html" target="_self" title="traduccion">
+        <img class="ingles" src="banderaUK.png" alt="bandera para cambiar el idioma al ingles" width="150px" height="100px">
+        </a>
+    </div>
+    <div class="pdf">
+        <a href="mainEspañol.pdf" target="_blank">PDF</a>
+    </div>
+</body>
+</html>

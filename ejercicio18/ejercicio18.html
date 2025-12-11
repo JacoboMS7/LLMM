@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio18</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .row-header {
+            font-weight: bold;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .mp3-imagenes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .mp3-imagenes img {
+            width: 40px;
+            height: auto;
+        }
+
+        .titulo {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .almacenamiento {
+            font-size: 13px;
+        }
+
+        .color-cirulos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparativa de reproductores MP3</h1>
+    
+    <table summary="Tabla que compara las características técnicas de diferentes modelos de reproductores MP3, incluyendo capacidad de almacenamiento, colores disponibles, tipo de pantalla y tiempo de carga">
+        <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+        
+        <tr>
+            <th abbr="Característica"></th>
+            <th colspan="3" abbr="MP3 mini">
+                <div class="mp3-imagenes">
+                    <img src="mp3_pequeno_negro.png" alt="MP3 mini blanco">
+                    <img src="mp3_pequeno_blanco.png" alt="MP3 mini negro">
+                </div>
+                <div class="titulo">MP3 mini</div>
+            </th>
+            <th colspan="2" abbr="MP3 grande">
+                <div class="mp3-imagenes">
+                    <img src="mp3_grande_blanco.png" alt="MP3 grande blanco">
+                    <img src="mp3_grande_negro.png" alt="MP3 grande negro">
+                </div>
+                <div class="titulo">MP3 grande</div>
+            </th>
+        </tr>
+        
+        <tr>
+            <th class="row-header" abbr="Capacidad">Capacidad de<br>almacenamiento</th>
+            <td class="almacenamiento">
+                <strong>4GB</strong><br>
+                (1.000<br>
+                canciones)
+            </td>
+            <td class="almacenamiento">
+                <strong>8GB</strong><br>
+                (2.000<br>
+                canciones)
+            </td>
+            <td class="almacenamiento">
+                <strong>16GB</strong><br>
+                (4.000<br>
+                canciones)
+            </td>
+            <td class="almacenamiento">
+                <strong>30GB</strong><br>
+                (7.500<br>
+                canciones)
+            </td>
+            <td class="almacenamiento">
+                <strong>80GB</strong><br>
+                (20.000<br>
+                canciones)
+            </td>
+        </tr>
+        
+        <tr>
+            <th class="row-header" abbr="Colores">Colores</th>
+            <td>
+                <div class="color-cirulos">
+                    <img src="color_blanco.png" alt="Color blanco">
+                </div>
+            </td>
+            <td>
+                <div class="color-cirulos">
+                    <img src="color_negro.png" alt="Color negro">
+                    <img src="color_verde.png" alt="Color verde">
+                    <img src="color_azul.png" alt="Color azul">
+                </div>
+                <div class="color-cirulos">
+                    <img src="color_rosa.png" alt="Color rosa"> 
+                </div> 
+            </td>
+            <td>
+                <div class="color-cirulos">
+                    <img src="color_negro.png" alt="Color negro">
+                </div>
+            </td>
+            <td colspan="2">
+                <div class="color-cirulos">
+                    <img src="color_blanco.png" alt="Color blanco">
+                    <img src="color_negro.png" alt="Color negro">
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <th class="row-header" abbr="Pantalla">Pantalla</th>
+            <td colspan="3">LCD de 3 cm (diagonal) con<br>retroiluminación</td>
+            <td colspan="2">LCD de 6 cm (diagonal)<br>con retroiluminación</td>
+        </tr>
+        
+        <tr>
+            <th class="row-header" abbr="Carga" rowspan="2">Tiempo de<br>carga</th>
+            <td colspan="3" rowspan="2">Unas 3 horas</td>
+            <td colspan="2">Unas 4 horas</td>
+        </tr>
+        <tr>
+            <td colspan="2">Unas 2 horas para<br>alcanzar el 80% de la<br>capacidad</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+

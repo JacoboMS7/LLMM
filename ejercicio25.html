@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio25</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" maxlength="30"><br>
+   
+    <label for="apellidos">Apellidos</label><br>
+    <input type="text" id="apellidos" name="apellidos" maxlength="80"><br>
+   
+    <label for="contraseña">Contraseña</label><br>
+    <input type="password" id="contraseña" name="contraseña" maxlength="10"><br>
+   
+    <label for="dni">DNI</label><br>
+    <input type="text" id="dni" name="dni"><br>
+  
+    <label>Sexo</label><br>
+   
+    <input type="radio" id="hombre" name="sexo">
+    <label for="hombre">Hombre</label><br>
+
+    <input type="radio" id="mujer" name="sexo">
+    <label for="mujer">Mujer</label><br>
+   
+    <label for="foto">Incluir mi foto</label>
+    <input type="file" id="foto" name="foto"><br><br>
+    
+    <input type="checkbox" id="boletin" name="boletin" checked>
+    <label for="boletin" style="display:inline;">Suscribirme al boletín de novedades</label><br>
+   
+    <button type="submit">Guardar cambios</button>
+    <button type="reset">Borrar los datos introducidos</button>
+
+    <fieldset style="width: 500px;">
+        <legend>Datos personales</legend>
+        
+        <label for="provincia">Provincia</label><br>
+        <select id="provincia" name="provincia">
+            <option value="">- selecciona -</option>
+            <option>Álava</option>
+            <option>Albacete</option>
+            <option>Alicante</option>
+            <option>Almería</option>
+            <option>Asturias</option>
+            <option>Ávila</option>
+            <option>Badajoz</option>
+            <option>Barcelona</option>
+            <option>Burgos</option>
+            <option>Cáceres</option>
+            <option>Cádiz</option>
+            <option>Cantabria</option>
+            <option>Castellón</option>
+            <option>Ceuta</option>
+            <option>Ciudad Real</option>
+            <option>Córdoba</option>
+            <option>Cuenca</option>
+            <option>Girona</option>
+            <option>Granada</option>
+            <option>Guadalajara</option>
+            <option>Gipuzkoa</option>
+            <option>Huelva</option>
+            <option>Huesca</option>
+            <option>Illes Balears</option>
+            <option>Jaén</option>
+            <option>La Coruña</option>
+            <option>La Rioja</option>
+            <option>Las Palmas</option>
+            <option>León</option>
+            <option>Lleida</option>
+            <option>Lugo</option>
+            <option>Madrid</option>
+            <option>Málaga</option>
+            <option>Melilla</option>
+            <option>Murcia</option>
+            <option>Navarra</option>
+            <option>Ourense</option>
+            <option>Palencia</option>
+            <option>Pontevedra</option>
+            <option>Salamanca</option>
+            <option>Santa Cruz de Tenerife</option>
+            <option>Segovia</option>
+            <option>Sevilla</option>
+            <option>Soria</option>
+            <option>Tarragona</option>
+            <option>Teruel</option>
+            <option>Toledo</option>
+            <option>Valencia</option>
+            <option>Valladolid</option>
+            <option>Bizkaia</option>
+            <option>Zamora</option>
+            <option>Zaragoza</option>
+        </select>
+
+        <br><label for="fecha">Fecha de nacimiento</label><br>
+        <input type="text" id="numero dia" name="numero dia" maxlength="2">
+        <label for ="de">de </label>
+        <select id="mes" name="mes">
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+        </select>
+        <input type="text" id="numero año" name="numero año" maxlength="4"><br><br>
+
+    <label for="tema">Temas de interés</label><br>
+        <select id="tema" name="tema" size="5">
+            <option>Administración de bases de datos</option>
+            <option>Análisis y programación</option>
+            <option>Arquitectura</option>
+            <option>Calidad</option>
+            <option>ERP.CRM.Business Intelligence</option>
+            <option>Recursos humanos</option>
+        </select>
+    </fieldset>
+
+</body>
+</html>

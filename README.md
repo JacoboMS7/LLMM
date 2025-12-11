@@ -45,4 +45,5 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | Ejercicio  | Descripción              |
 |------------|--------------------------|
 | [Ejercicio 1](https://jacoboms7.github.io/LLMM/ejercicio1css.html) |Este es el ejercicio 1 de CSS |
+| [Ejercicio 2](https://jacoboms7.github.io/LLMM/ejercicio2css/ejercicio2css.html) |Este es el ejercicio 2 de CSS |
 

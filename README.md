@@ -34,7 +34,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 23](https://JacoboMS7.github.io/LLMM/ejercicio23.html) |Este es el ejercicio 23 de HTML |
 | [Ejercicio 24](https://JacoboMS7.github.io/LLMM/ejercicio24.html) |Este es el ejercicio 24 de HTML |
 | [Ejercicio 25](https://JacoboMS7.github.io/LLMM/ejercicio25.html) |Este es el ejercicio 25 de HTML |
-| [Ejercicio 26](https://jacoboms7.github.io/LLMM/ejercicio26/ejercicio26.html) |Este es el ejercicio 26 de HTML |
+| [Ejercicio 26](https://jacoboms7.github.io/LLMM/ejercicio26/ejercicio%2026.html) |Este es el ejercicio 26 de HTML |
 | [Ejercicio 27](https://jacoboms7.github.io/LLMM/ejerciciovideo/ejerciciovideo.html) |Este es el ejercicio 27 de HTML |
 | [Ejercicio 28](https://jacoboms7.github.io/LLMM/ejercicio27/ejercicio27.html) |Este es el ejercicio 28 de HTML |
 | [Ejercicio 29](https://JacoboMS7.github.io/LLMM/ejercicio28.html) |Este es el ejercicio 29 de HTML |

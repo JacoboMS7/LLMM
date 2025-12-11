@@ -40,5 +40,9 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 29](https://JacoboMS7.github.io/LLMM/ejercicio28.html) |Este es el ejercicio 29 de HTML |
 | [Ejercicio 30](https://jocular-travesseiro-f34d8a.netlify.app/) |Este es el ejercicio 30 hosteado en netifly |
 | [Quarterly work](https://jacoboms7.github.io/LLMM/web4u/mainEspa%C3%B1ol.html) |Esta es la práctica del trimestre |
+## Tema 2 - CSS 
 
+| Ejercicio  | Descripción              |
+|------------|--------------------------|
+| [Ejercicio 1](https://JacoboMS7.github.io/LLMM/ejercicio1css.html) |Este es el ejercicio 1 de CSS |
 

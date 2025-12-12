@@ -9,7 +9,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio introductorio 1](https://JacoboMS7.github.io/LLMM/Actividad%20introductoria%201.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/Actividad%20introductoria%201.html) | Esta es la actividad introductoria 1 en HTML |
 | [Ejercicio introductorio 2](https://JacoboMS7.github.io/LLMM/Activida%20introductoria%202%20xml.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/Activida%20introductoria%202%20xml.xml) | Esta es la actividad introductoria 1 en XML |
 | [Ejercicio introductorio 3](https://JacoboMS7.github.io/LLMM/act%20introductoria%203.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/act%20introductoria%203.html) | Esta es la actividad introductoria 3 en HTML |
-| [Ejercicio introductorio 4](https://github.com/JacoboMS7/Prueba) | Para este no hay código | Este es el repositorio de prueba |
+| [Ejercicio introductorio 4](https://github.com/JacoboMS7/Prueba) | Para este no hay código ya que es un link aparte | Este es el repositorio de prueba |
 | [Ejercicio 1](https://JacoboMS7.github.io/LLMM/ejercicio1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1.html) | Este es el ejercicio 1 de HTML |
 | [Ejercicio 2](https://JacoboMS7.github.io/LLMM/ejercicio2.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio2.html) | Este es el ejercicio 2 de HTML |
 | [Ejercicio 3](https://JacoboMS7.github.io/LLMM/ejercicio3.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3.html) | Este es el ejercicio 3 de HTML |
@@ -39,7 +39,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 27](https://jacoboms7.github.io/LLMM/ejerciciovideo/ejerciciovideo.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejerciciovideo/ejerciciovideo.html) | Este es el ejercicio 27 de HTML |
 | [Ejercicio 28](https://jacoboms7.github.io/LLMM/ejercicio27/ejercicio27.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio27/ejercicio27.html) | Este es el ejercicio 28 de HTML |
 | [Ejercicio 29](https://JacoboMS7.github.io/LLMM/ejercicio28.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio28.html) | Este es el ejercicio 29 de HTML |
-| [Ejercicio 30](https://jocular-travesseiro-f34d8a.netlify.app/) | [Código (posible referencia)](https://github.com/JacoboMS7/LLMM/blob/main/README.md) | Este es el ejercicio 30 hosteado en Netlify |
+| [Ejercicio 30](https://jocular-travesseiro-f34d8a.netlify.app/) | Para este no hay código ya que es un link aparte | Este es el ejercicio 30 hosteado en Netlify |
 | [Quarterly work](https://jacoboms7.github.io/LLMM/web4u/mainEspa%C3%B1ol.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/web4u/mainEspa%C3%B1ol.html) | Esta es la práctica del trimestre |
 
 ## Tema 2 - CSS

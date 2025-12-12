@@ -40,7 +40,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 28](https://jacoboms7.github.io/LLMM/ejercicio27/ejercicio27.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio27/ejercicio27.html) | Este es el ejercicio 28 de HTML |
 | [Ejercicio 29](https://JacoboMS7.github.io/LLMM/ejercicio28.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio28.html) | Este es el ejercicio 29 de HTML |
 | [Ejercicio 30](https://jocular-travesseiro-f34d8a.netlify.app/) | Para este no hay código ya que es un link aparte | Este es el ejercicio 30 hosteado en Netlify |
-| [Quarterly work](https://jacoboms7.github.io/LLMM/web4u/mainEspa%C3%B1ol.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/web4u/mainEspa%C3%B1ol.html) | Esta es la práctica del trimestre |
+| [Quarterly work](https://jacoboms7.github.io/LLMM/web4u/mainEspa%C3%B1ol.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/web4u) | Esta es la práctica del trimestre |
 
 ## Tema 2 - CSS
 

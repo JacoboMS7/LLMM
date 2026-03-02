@@ -52,8 +52,10 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 4](https://jacoboms7.github.io/LLMM/ejercicio4css/ejercicio4css.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio4css/ejercicio4css.html) | Este es el ejercicio 4 de CSS |
 | [Ejercicio 5](https://jacoboms7.github.io/LLMM/ejercicio5css/ejercicio5css.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio5css/ejercicio5css.html) | Este es el ejercicio 5 de CSS |
 
-## Práctica Boostrap
+## Práctica Bootstrap
+
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
-| [Practica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTrimestral2) | Esta es la práctica de boostrap |
+| [Práctica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTrimestral2) | Esta es la práctica de Bootstrap |
+
 

@@ -55,5 +55,5 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 ##Práctica Boostrap
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
-| [Practica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1css.html) | Esta es la práctica de boostrap |
+| [Practica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTrimestral2) | Esta es la práctica de boostrap |
 

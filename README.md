@@ -54,8 +54,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 
 ## Práctica Bootstrap
 
-| Ejercicio | Código | Validación |
+| Ejercicio | Código | Validaciones |
 |-----------|--------|-------------|
-| [Práctica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTrimestral2) | [Validación](https://jigsaw.w3.org/css-validator/validator?lang=es&profile=css3svg&uri=https%3A%2F%2Fpracticaboostrapjacobomartin.netlify.app%2F&usermedium=all&vextwarning=&warning=1) |
+| [Práctica](https://practicaboostrapjacobomartin.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTrimestral2) | [Validaciones](https://docs.google.com/document/d/1QOW4ZKWiFWjillTcbpxJlU8z_oR2C70zsrq-ucSWt6Q/edit?usp=sharing) |
 
 

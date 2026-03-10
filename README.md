@@ -68,7 +68,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 5](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio5.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio5.html) | Este es el ejercicio 5 de JS |
 | [Ejercicio 6](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio6.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio6.html) | Este es el ejercicio 6 de JS |
 | [Ejercicio 7](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio7.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio7.html) | Este es el ejercicio 7 de JS |
-| [Ejercicio 8](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio8.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio8.html) | Este es el ejercicio 8 de JS |
-| [Ejercicio 9](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio9.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio9.html) | Este es el ejercicio 9 de JS |
+| [Ejercicio 8](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio8(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio8(js).html) | Este es el ejercicio 8 de JS |
+| [Ejercicio 9](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio9(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio9(js).html) | Este es el ejercicio 9 de JS |
 
 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js.09.js">
+     
+    </script>
+  </head>
+  <body>
+    <h2>JavaScript Functions</h2>
+
+    <p>Escribe en la casilla de fahrenheit para pasar a celsius y viceversa</p>
+    <p>No puedes hacer la conversión si escribes en ambas casillas a la vez</p>
+
+    <label for="tbf">Fahrenheit : </label>
+    <input type="text" id="tbf" name="tbf" />
+    <br />
+    <label for="tbc">Celcius : </label>
+    <input type="text" id="tbc" name="tbc" />
+    <br />
+    <button type="button" onclick="resetear()">Resetear</button>
+    <button type="button" onclick="muestra()">Convierte</button>
+  </body>
+</html>

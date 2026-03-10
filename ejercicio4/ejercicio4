@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Create a variable, assign a value to it, and display it:</p>
+    <form>
+      <label for="variable">Insert a variable, do not press enter</label>
+      <input type="text" id="variable" maxlength="80" />
+    </form>
+    <br /><button type="button" onclick="variableInput()">
+      Click here to see the variable you typed</button
+    ><br />
+    <p id="demo"></p>
+    <script src="js.04.js"></script>
+  </body>
+</html>

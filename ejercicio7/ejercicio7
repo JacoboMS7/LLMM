@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio7</title>
+    <link rel="stylesheet" href="estilo1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttonLeft" onclick="changeImage(-1)"><p>&larr;</p></div>
+      <div>
+        <img
+          src="coche1.jpg"
+          id="imageToChange"
+          max
+          width="500px"
+          max
+          height="400px"
+        />
+      </div>
+      <div class="buttonRight" onclick="changeImage(1)">
+        <p class="textButtons">&rarr;</p>
+      </div>
+    </div>
+    <script src ="js.07.js">
+    </script>
+  </body>
+</html>

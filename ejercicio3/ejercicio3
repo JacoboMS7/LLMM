@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" id="tema" href="estilo1.css" />
+  </head>
+  <body>
+    <h2 class="encabezado">Imágenes de coches y spiderman</h2>
+    <p class="parrafo1">Seleccione el estilo deseado</p>
+    <button type="button" onclick="cambiarEstilo('estilo1.css')">
+      estilo 1
+    </button>
+    <button type="button" onclick="cambiarEstilo('estilo2.css')">
+      estilo 2
+    </button>
+
+    <p class="parrafo2">
+      Ejemplo de JavaScript en el que cambiamos las imágenes mostradas el pulsar
+      un botón
+    </p>
+
+    <div class="coches">
+      <img id="miCoche" src="coche1.jpg" style="height: 300px" /><br />
+      <label for="seleccionarCoches">Elige un coche</label>
+      <select id="seleccionarCoches" onchange="cambiarCoche()">
+        <option value="coche1.jpg">Coche 1</option>
+        <option value="coche2.jpg">Coche 2</option>
+        <option value="coche3.jpg">Coche 3</option>
+        <option value="coche4.jpg">Coche 4</option>
+        <option value="coche5.jpg">Coche 5</option>
+        <option value="coche6.jpg">Coche 6</option>
+      </select>
+    </div>
+    <div class="spiderman">
+      <img id="miSpiderman" src="spiderman1.gif" style="height: 300px" /><br />
+      <label for="seleccionarSpiderman">Elige un spiderman</label>
+      <select id="seleccionarSpiderman" onchange="cambiarSpiderman()">
+        <option value="spiderman1.gif">spiderman 1</option>
+        <option value="spiderman2.jpg">spiderman 2</option>
+        <option value="spiderman3.jpg">spiderman 3</option>
+        <option value="Spiderman4.jpg">spiderman 4</option>
+        <option value="spiderman5.jpg">spiderman 5</option>
+      </select>
+    </div>
+
+    <script src="js03.js"></script>
+  </body>
+</html>

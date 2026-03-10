@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+.encabezado {
+    color: blue;
+}
+
+.parrafo1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.parrafo2{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}

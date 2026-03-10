@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p
+        id="fontToChange"
+        style="font-size: 25px; font-family: Arial, Helvetica, sans-serif"
+      >
+        this is a paragraph
+      </p>
+      <button type="button" onclick="changeFont('Arial')">Style:arial</button>
+      <button
+        type="button"
+        onclick="changeFont('Comic Sans MS, cursive, sans-serif')"
+      >
+        Style:Comic Sans MS
+      </button>
+      <button type="button" onclick="changeFont('Courier New')">
+        Style:courier new
+      </button>
+    </div>
+    <div>
+      <img
+        id="imageToChange"
+        src="coche1.jpg"
+        width="300px"
+        height="200px"
+      /><br />
+      <button type="button" onclick="changeImage('coche1.jpg')">image 1</button>
+      <button type="button" onclick="changeImage('coche2.jpg')">image 2</button>
+      <button type="button" onclick="changeImage('coche3.jpg')">image 3</button>
+    </div>
+    <br />
+    <button type="button" onclick="changeText(1)">See text 1</button>
+    <button type="button" onclick="changeText(2)">See text 2</button>
+    <button type="button" onclick="changeText(3)">See text 3</button>
+    <div><p id="textToChange"></p></div>
+    <script src="js05.js"></script>
+  </body>
+</html>

@@ -61,6 +61,6 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 ## Tema 3 - JS
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
-| [Ejercicio 1](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1css.html) | Este es el ejercicio 1 de CSS |
+| [Ejercicio 1](https://jacoboms7.github.io/LLMM/ejercicio1/ejercicio1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio1.html) | Este es el ejercicio 1 de CSS |
 
 

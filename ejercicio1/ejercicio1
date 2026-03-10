@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <h1>My Web Page</h1>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="clearPragraph()">
+      Click to clear the paragraph
+    </button>
+    <script src="MyJS.js"></script>
+  </body>
+</html>

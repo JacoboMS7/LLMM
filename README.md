@@ -74,7 +74,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 ## Tema 4 - XML
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
-| [Ejercicio 1](https://jacoboms7.github.io/LLMM/T4/ejercicio2/Ex2.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio1.html) | Este es el ejercicio 1 de XML |
+| [Ejercicio 1](https://jacoboms7.github.io/LLMM/T4/ejercicio2/Ex2.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/T4/ejercicio2/Ex2.xml) | Este es el ejercicio 1 de XML |
 | [Ejercicio 2](https://jacoboms7.github.io/LLMM/T4/ejercicio3/Ex3.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio2/ejercicio2.html) | Este es el ejercicio 2 de XML |
 | [Ejercicio 3](https://jacoboms7.github.io/LLMM/T4/ejercicio4/Ex4.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3/ejercicio3.html) | Este es el ejercicio 3 de XML |
 | [Ejercicio 4](https://jacoboms7.github.io/LLMM/T4/ejercicio5/Ex5.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio4/ejercicio4.html) | Este es el ejercicio 4 de XML |

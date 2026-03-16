@@ -71,7 +71,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 8](https://jacoboms7.github.io/LLMM/ejercicio8/ejercicio8(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio8/ejercicio8(js).html) | Este es el ejercicio 8 de JS |
 | [Ejercicio 9](https://jacoboms7.github.io/LLMM/ejercicio9/ejercicio9(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 9 de JS |
 
-## Tema 3 - XML
+## Tema 4 - XML
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
 | [Ejercicio 1](https://jacoboms7.github.io/LLMM/T4/ejercicio2/Ex2.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio1.html) | Este es el ejercicio 1 de JS |

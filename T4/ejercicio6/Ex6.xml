@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+    <sender>
+        <name>Ana García</name>
+        <address>Gran Via 25, Madrid, Spain</address>
+        <email>ana.garcia@example.com</email>
+    </sender>
+    <receiver>
+        <name>Carlos Lopez</name>
+        <address>Calle Mayor 10, Valencia, Spain</address>
+        <email>carlos.lopez@example.com</email>
+    </receiver>
+    <date>2026-03-14</date>
+    <body>
+        Dear Carlos,
+        I hope you are doing well. I am writing to inform you about the upcoming meeting scheduled for next week. 
+        Please review the attached documents and let me know if you have any questions.
+        Best regards,
+    </body>
+    <signature>
+        Ana García
+    </signature>
+</letter>

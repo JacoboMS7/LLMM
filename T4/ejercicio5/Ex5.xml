@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+    <!-- This CD has more tracks than in this file -->
+    <CD serial="B6B41B" disc-length="36:55">
+        <title>OK Computer</title>
+        <artists>
+            <artist>Radiohead</artist>
+        </artists>
+        <year>1997</year>
+        <category>Alternative Rock</category>
+        <publisher>Parlophone</publisher>
+        <tracks>
+            <track>
+                <number>1</number>
+                <name>Airbag</name>
+                <duration>4:44</duration>
+            </track>
+            <track>
+                <number>2</number>
+                <name>Paranoid Android</name>
+                <duration>6:23</duration>
+            </track>
+            <track>
+                <number>3</number>
+                <name>Subterranean Homesick Alien</name>
+                <duration>4:27</duration>
+            </track>
+        </tracks>
+    </CD>
+</CDList>

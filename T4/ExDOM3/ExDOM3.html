@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head> </head>
+  <body>
+    <h3>Resultados:</h3>
+    <div id="titulo1"></div>
+    <div id="todosTitulos"></div>
+    <div id="atributos4"></div>
+    <div id="autores3"></div>
+    <table
+      id="tablaCompleta"
+      border="1"
+      style="border-collapse: collapse; margin-top: 20px"
+    >
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Primer Autor</th>
+          <th>Precio</th>
+          <th>Año</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      const xmlString = `<bookstore>
+<book category="cooking">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Laurentiis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book category="children">
+<title lang="en">Harry Potter</title>
+<author>J K. Rowling</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="web">
+<title lang="en">XQuery Kick Start</title>
+<author>James McGovern</author>
+<author>Per Bothner</author>
+<author>Kurt Cagle</author>
+<author>James Linn</author>
+<author>Vaidyanathan Nagarajan</author>
+<year>2003</year>
+<price>49.99</price>
+</book>
+<book category="web" cover="paperback">
+<title lang="en">Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+</bookstore>`;
+
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+
+      console.log("=== EJERCICIO 3 - XML DOM BOOKS ===");
+
+      const titulo1 =
+        xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+      document.getElementById("titulo1").innerHTML =
+        "<strong>1. Título primer libro:</strong> " + titulo1;
+      console.log("1. Título primer libro:", titulo1);
+
+      let todosTitulos = "<strong>2. Todos los títulos:</strong><br>";
+      let titulosList = xmlDoc.getElementsByTagName("title");
+      for (let i = 0; i < titulosList.length; i++) {
+        todosTitulos += "• " + titulosList[i].childNodes[0].nodeValue + "<br>";
+        console.log(
+          "   Título " + (i + 1) + ":",
+          titulosList[i].childNodes[0].nodeValue,
+        );
+      }
+      document.getElementById("todosTitulos").innerHTML = todosTitulos;
+
+      const attrsCount4 =
+        xmlDoc.getElementsByTagName("book")[3].attributes.length;
+      document.getElementById("atributos4").innerHTML +=
+        "<strong>3. Nº atributos 4º libro:</strong> " + attrsCount4;
+      console.log("3. Nº atributos 4º libro:", attrsCount4);
+
+      let attrs4Text = "<strong>4. Atributos 4º libro:</strong><br>";
+      let attrs4 = xmlDoc.getElementsByTagName("book")[3].attributes;
+      for (let i = 0; i < attrs4.length; i++) {
+        let attrName = attrs4[i].nodeName;
+        let attrValue = attrs4[i].nodeValue;
+        attrs4Text += attrName + " = '" + attrValue + "'<br>";
+        console.log("   " + attrName + ": " + attrValue);
+      }
+      document.getElementById("atributos4").innerHTML += attrs4Text;
+
+      const autoresCount3 = xmlDoc
+        .getElementsByTagName("book")[2]
+        .getElementsByTagName("author").length;
+      document.getElementById("autores3").innerHTML =
+        "<strong>5. Nº autores 3º libro:</strong> " + autoresCount3;
+      console.log("5. Nº autores 3º libro:", autoresCount3);
+
+      let autores3Text = "<strong>6. Autores 3º libro:</strong><br>";
+      let autores3 = xmlDoc
+        .getElementsByTagName("book")[2]
+        .getElementsByTagName("author");
+      for (let i = 0; i < autores3.length; i++) {
+        autores3Text +=
+          i + 1 + ". " + autores3[i].childNodes[0].nodeValue + "<br>";
+        console.log(
+          "   Autor " + (i + 1) + ":",
+          autores3[i].childNodes[0].nodeValue,
+        );
+      }
+      document.getElementById("autores3").innerHTML += autores3Text;
+
+      console.log("\n7. TABLA COMPLETA:");
+      let tablaBody = "";
+      let books = xmlDoc.getElementsByTagName("book");
+      for (let i = 0; i < books.length; i++) {
+        let title =
+          books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        let primerAutor =
+          books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+        let price =
+          books[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
+        let year =
+          books[i].getElementsByTagName("year")[0].childNodes[0].nodeValue;
+
+        tablaBody += `<tr>
+                <td>${title}</td>
+                <td>${primerAutor}</td>
+                <td>$${price}</td>
+                <td>${year}</td>
+            </tr>`;
+
+        console.log(`   ${title} | ${primerAutor} | $${price} | ${year}`);
+      }
+      document.querySelector("#tablaCompleta tbody").innerHTML = tablaBody;
+    </script>
+  </body>
+</html>

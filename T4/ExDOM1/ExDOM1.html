@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Abre la consola del navegador (F12)</h2>
+
+    <script>
+      const xmlString = `<bookstore>
+<book category="cooking">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Laurentiis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book category="children">
+<title lang="en">Harry Potter</title>
+<author>J K. Rowling</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="web">
+<title lang="en">XQuery Kick Start</title>
+<author>James McGovern</author>
+<author>Per Bothner</author>
+<author>Kurt Cagle</author>
+<author>James Linn</author>
+<author>Vaidyanathan Nagarajan</author>
+<year>2003</year>
+<price>49.99</price>
+</book>
+<book category="web" cover="paperback">
+<title lang="en">Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+</bookstore>`;
+
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+      document.xmlDoc = xmlDoc;
+
+      console.log("RESULTADOS:");
+
+      console.log("1. Título del primer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue,
+      );
+
+      console.log("2. Año del primer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue,
+      );
+
+      console.log("3. Precio del segundo libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("price")[1].childNodes[0].nodeValue,
+      );
+
+      console.log("4. Autor del primer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue,
+      );
+
+      console.log("5. Primer autor del tercer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("book")[2].getElementsByTagName("author")[0]
+          .childNodes[0].nodeValue,
+      );
+
+      console.log("6. Segundo autor del tercer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("book")[2].getElementsByTagName("author")[1]
+          .childNodes[0].nodeValue,
+      );
+
+      console.log("7. Nombre del primer atributo del primer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("book")[0].attributes[0].nodeName,
+      );
+
+      console.log("8. Valor del primer atributo del primer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("book")[0].attributes[0].nodeValue,
+      );
+
+      console.log("9. Número de autores del tercer libro:");
+      console.log(
+        xmlDoc.getElementsByTagName("book")[2].getElementsByTagName("author")
+          .length,
+      );
+
+      console.log("10. Todos los autores del tercer libro:");
+      let l = xmlDoc
+        .getElementsByTagName("book")[2]
+        .getElementsByTagName("author").length;
+      let a = xmlDoc
+        .getElementsByTagName("book")[2]
+        .getElementsByTagName("author");
+      for (let i = 0; i < l; i++) {
+        console.log("   - " + a[i].childNodes[0].nodeValue);
+      }
+
+      console.log("11. Número de atributos del cuarto libro:");
+      console.log(xmlDoc.getElementsByTagName("book")[3].attributes.length);
+
+      console.log("12. Atributos del cuarto libro:");
+      let book4 = xmlDoc.getElementsByTagName("book")[3];
+      let attrs = book4.attributes;
+      for (let i = 0; i < attrs.length; i++) {
+        console.log("   " + attrs[i].nodeName + ": " + attrs[i].nodeValue);
+      }
+    </script>
+  </body>
+</html>

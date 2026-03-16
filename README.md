@@ -76,7 +76,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 |-----------|--------|-------------|
 | [Ejercicio 1](https://jacoboms7.github.io/LLMM/T4/ejercicio2/Ex2.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio1.html) | Este es el ejercicio 1 de XML |
 | [Ejercicio 2](https://jacoboms7.github.io/LLMM/T4/ejercicio3/Ex3.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio2/ejercicio2.html) | Este es el ejercicio 2 de JS |
-| [Ejercicio 3](https://jacoboms7.github.io/LLMM/T4ejercicio4/Ex4.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3/ejercicio3.html) | Este es el ejercicio 3 de JS |
+| [Ejercicio 3](https://jacoboms7.github.io/LLMM/T4/ejercicio4/Ex4.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3/ejercicio3.html) | Este es el ejercicio 3 de JS |
 | [Ejercicio 4](https://jacoboms7.github.io/LLMM/T4/ejercicio5/Ex5.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio4/ejercicio4.html) | Este es el ejercicio 4 de JS |
 | [Ejercicio 5](https://jacoboms7.github.io/LLMM/T4/ejercicio6/Ex6.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio5/ejercicio5.html) | Este es el ejercicio 5 de JS |
 | [Ejercicio 1 DOM](https://jacoboms7.github.io/LLMM/T4/ExDOM1/ExDOM1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio6/ejercicio6.html) | Este es el ejercicio 6 de JS |

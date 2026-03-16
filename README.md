@@ -75,14 +75,14 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
 | [Ejercicio 1](https://jacoboms7.github.io/LLMM/T4/ejercicio2/Ex2.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio1/ejercicio1.html) | Este es el ejercicio 1 de XML |
-| [Ejercicio 2](https://jacoboms7.github.io/LLMM/T4/ejercicio3/Ex3.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio2/ejercicio2.html) | Este es el ejercicio 2 de JS |
-| [Ejercicio 3](https://jacoboms7.github.io/LLMM/T4/ejercicio4/Ex4.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3/ejercicio3.html) | Este es el ejercicio 3 de JS |
-| [Ejercicio 4](https://jacoboms7.github.io/LLMM/T4/ejercicio5/Ex5.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio4/ejercicio4.html) | Este es el ejercicio 4 de JS |
-| [Ejercicio 5](https://jacoboms7.github.io/LLMM/T4/ejercicio6/Ex6.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio5/ejercicio5.html) | Este es el ejercicio 5 de JS |
-| [Ejercicio 1 DOM](https://jacoboms7.github.io/LLMM/T4/ExDOM1/ExDOM1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio6/ejercicio6.html) | Este es el ejercicio 6 de JS |
-| [Ejercicio 2 DOM](https://jacoboms7.github.io/LLMM/T4/ExDom2/ExDOM2.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio7/ejercicio7.html) | Este es el ejercicio 7 de JS |
-| [Ejercicio 3 DOM](https://jacoboms7.github.io/LLMM/T4/ExDOM3/ExDOM3.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio8/ejercicio8(js).html) | Este es el ejercicio 8 de JS |
-| [Ejercicio 1 AJAX](https://jacoboms7.github.io/LLMM/T4/AJAX1/AJAX1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 9 de JS |
-| [Ejercicio 2 AJAX](https://jacoboms7.github.io/LLMM/T4/AJAX2/AJAX2.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 9 de JS |
+| [Ejercicio 2](https://jacoboms7.github.io/LLMM/T4/ejercicio3/Ex3.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio2/ejercicio2.html) | Este es el ejercicio 2 de XML |
+| [Ejercicio 3](https://jacoboms7.github.io/LLMM/T4/ejercicio4/Ex4.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio3/ejercicio3.html) | Este es el ejercicio 3 de XML |
+| [Ejercicio 4](https://jacoboms7.github.io/LLMM/T4/ejercicio5/Ex5.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio4/ejercicio4.html) | Este es el ejercicio 4 de XML |
+| [Ejercicio 5](https://jacoboms7.github.io/LLMM/T4/ejercicio6/Ex6.xml) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio5/ejercicio5.html) | Este es el ejercicio 5 de XML |
+| [Ejercicio 1 DOM](https://jacoboms7.github.io/LLMM/T4/ExDOM1/ExDOM1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio6/ejercicio6.html) | Este es el ejercicio 1 de XMLDOM |
+| [Ejercicio 2 DOM](https://jacoboms7.github.io/LLMM/T4/ExDom2/ExDOM2.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio7/ejercicio7.html) | Este es el ejercicio 2 de XMLDOM |
+| [Ejercicio 3 DOM](https://jacoboms7.github.io/LLMM/T4/ExDOM3/ExDOM3.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio8/ejercicio8(js).html) | Este es el ejercicio 3 de XMLDOM |
+| [Ejercicio 1 AJAX](https://jacoboms7.github.io/LLMM/T4/AJAX1/AJAX1.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 1 de AJAX |
+| [Ejercicio 2 AJAX](https://jacoboms7.github.io/LLMM/T4/AJAX2/AJAX2.html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 2 de AJAX |
 
 

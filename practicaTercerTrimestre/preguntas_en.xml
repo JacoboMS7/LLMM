@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+    <!ELEMENT test (question+)>
+    <!ELEMENT question (wording,choices)>
+    <!ELEMENT wording (#PCDATA)>
+    <!ELEMENT choices (choice+)>
+    <!ELEMENT choice (#PCDATA)>
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ATTLIST choice correct (yes|no) "no">
+]>
+<test>
+    <question id="1">
+        <wording>What was the primary design goal of XML?</wording>
+        <choices>
+            <choice>To replace HTML on the web</choice>
+            <choice correct="yes">To carry and store data in a readable way</choice>
+            <choice>To execute client-side scripts</choice>
+            <choice>To format text for printed documents</choice>
+        </choices>
+    </question>
+    <question id="2">
+        <wording>Which syntax rule is mandatory for all XML documents?</wording>
+        <choices>
+            <choice>Having at least two root elements</choice>
+            <choice>Mandatory use of the Latin alphabet</choice>
+            <choice correct="yes">All tags must be properly closed</choice>
+            <choice>Not allowing attributes in tags</choice>
+        </choices>
+    </question>
+    <question id="3">
+        <wording>How is an optional element (zero or one time) defined in a DTD?</wording>
+        <choices>
+            <choice>Using the + symbol</choice>
+            <choice>Using the * symbol</choice>
+            <choice correct="yes">Using the ? symbol</choice>
+            <choice>No symbol is used</choice>
+        </choices>
+    </question>
+    <question id="4">
+        <wording>What is the difference between a "Well-Formed" and a "Valid" document?</wording>
+        <choices>
+            <choice>They are identical concepts in the XML specification</choice>
+            <choice correct="yes">Valid complies with a DTD; Well-Formed only with syntax</choice>
+            <choice>Valid cannot contain attributes</choice>
+            <choice>Well-Formed requires an XSLT stylesheet</choice>
+        </choices>
+    </question>
+    <question id="5">
+        <wording>What is an XML Namespace?</wording>
+        <choices>
+            <choice>A directory where .xml files are stored</choice>
+            <choice correct="yes">A mechanism to avoid element name conflicts</choice>
+            <choice>A reserved tag for the root element</choice>
+            <choice>The name of the server hosting the document</choice>
+        </choices>
+    </question>
+    <question id="6">
+        <wording>Which entity type is used to represent the less-than character (&lt;) in XML?</wording>
+        <choices>
+            <choice>&amp;amp;</choice>
+            <choice correct="yes">&amp;lt;</choice>
+            <choice>&amp;gt;</choice>
+            <choice>&amp;quot;</choice>
+        </choices>
+    </question>
+    <question id="7">
+        <wording>What does the reserved word EMPTY mean in a DTD element declaration?</wording>
+        <choices>
+            <choice>The element can only contain white spaces</choice>
+            <choice correct="yes">The element cannot have content (children or text)</choice>
+            <choice>The element is optional for the user</choice>
+            <choice>The element deletes previous data</choice>
+        </choices>
+    </question>
+    <question id="8">
+        <wording>What is the purpose of the prologue in an XML document?</wording>
+        <choices>
+            <choice correct="yes">To indicate the version and character encoding</choice>
+            <choice>To define the visual style of the document</choice>
+            <choice>To list the names of the file authors</choice>
+            <choice>To close the root element at the end of the file</choice>
+        </choices>
+    </question>
+    <question id="9">
+        <wording>What does the #REQUIRED value mean in an attribute declaration (ATTLIST)?</wording>
+        <choices>
+            <choice>The attribute has a fixed default value</choice>
+            <choice>The attribute is optional</choice>
+            <choice correct="yes">The author must include the attribute in the element</choice>
+            <choice>The attribute only accepts integers</choice>
+        </choices>
+    </question>
+    <question id="10">
+        <wording>What is the hierarchical structure of an XML document?</wording>
+        <choices>
+            <choice>Network structure</choice>
+            <choice correct="yes">Tree structure</choice>
+            <choice>Linear or sequential structure</choice>
+            <choice>Relational structure</choice>
+        </choices>
+    </question>
+    <question id="11">
+        <wording>Which data type in a DTD allows only raw letters and numbers?</wording>
+        <choices>
+            <choice>#PCDATA</choice>
+            <choice correct="yes">CDATA</choice>
+            <choice>IDREF</choice>
+            <choice>ENTITY</choice>
+        </choices>
+    </question>
+    <question id="12">
+        <wording>What is the limit of root elements in an XML file?</wording>
+        <choices>
+            <choice>There is no limit</choice>
+            <choice>Minimum two</choice>
+            <choice correct="yes">Exactly one</choice>
+            <choice>One for each DTD schema</choice>
+        </choices>
+    </question>
+    <question id="13">
+        <wording>What is a processing instruction (&lt;? ... ?&gt;) used for?</wording>
+        <choices>
+            <choice>To comment out lines of code</choice>
+            <choice correct="yes">To pass information to the application reading the XML</choice>
+            <choice>To define new user tags</choice>
+            <choice>To validate the document against a DTD</choice>
+        </choices>
+    </question>
+    <question id="14">
+        <wording>How is a list of possible values for an attribute defined in a DTD?</wording>
+        <choices>
+            <choice>Using the #LIST symbol</choice>
+            <choice correct="yes">Listing values inside parentheses separated by |</choice>
+            <choice>Defining a child element for each value</choice>
+            <choice>It is not possible to limit values in a DTD</choice>
+        </choices>
+    </question>
+    <question id="15">
+        <wording>What is an XML Parser?</wording>
+        <choices>
+            <choice>A program that translates XML to binary</choice>
+            <choice correct="yes">Software that reads the document and verifies its structure</choice>
+            <choice>A computer virus that deletes tags</choice>
+            <choice>A text editor specialized in code</choice>
+        </choices>
+    </question>
+    <question id="16">
+        <wording>Which symbol indicates that an element can appear unlimited times (0 or more)?</wording>
+        <choices>
+            <choice>?</choice>
+            <choice>+</choice>
+            <choice correct="yes">*</choice>
+            <choice>!</choice>
+        </choices>
+    </question>
+    <question id="17">
+        <wording>Can an XML tag name start with a number?</wording>
+        <choices>
+            <choice>Yes, if the number is followed by a letter</choice>
+            <choice correct="yes">No, never</choice>
+            <choice>Only if defined that way in the DTD</choice>
+            <choice>Only in version 1.1 documents</choice>
+        </choices>
+    </question>
+    <question id="18">
+        <wording>What does the term "Normalized Attribute" mean?</wording>
+        <choices>
+            <choice>An attribute that has been translated into English</choice>
+            <choice correct="yes">An attribute where white spaces have been processed</choice>
+            <choice>An attribute that has no value</choice>
+            <choice>An attribute that repeats in all elements</choice>
+        </choices>
+    </question>
+    <question id="19">
+        <wording>What is the reserved attribute 'xml:lang' used for?</wording>
+        <choices>
+            <choice>To automatically translate the document</choice>
+            <choice correct="yes">To identify the language of the element's content</choice>
+            <choice>To change the server-side programming language</choice>
+            <choice>It's an error, that attribute doesn't exist</choice>
+        </choices>
+    </question>
+    <question id="20">
+        <wording>What is the main limitation of a DTD compared to an XML Schema (XSD)?</wording>
+        <choices>
+            <choice>DTDs are harder to write</choice>
+            <choice correct="yes">DTDs do not support complex data types or numeric ranges</choice>
+            <choice>DTDs are not compatible with modern browsers</choice>
+            <choice>DTDs only allow 10 elements per file</choice>
+        </choices>
+    </question>
+</test>

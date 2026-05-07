@@ -1,0 +1,70 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.contenedor {
+  background: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+}
+
+#cronometro {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1.3rem;
+}
+
+.opcion-item {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.opcion-item:hover {
+  background-color: #f8f9fa;
+}
+
+.opcion-item input {
+  margin-right: 15px;
+}
+
+.btn-principal,
+#btn-siguiente {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#btn-siguiente:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.oculto {
+  display: none;
+}

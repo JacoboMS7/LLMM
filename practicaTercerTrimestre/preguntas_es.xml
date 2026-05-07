@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+    <!ELEMENT test (question+)>
+    <!ELEMENT question (wording,choices)>
+    <!ELEMENT wording (#PCDATA)>
+    <!ELEMENT choices (choice+)>
+    <!ELEMENT choice (#PCDATA)>
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ATTLIST choice correct (yes|no) "no">
+]>
+<test>
+    <question id="1">
+        <wording>¿Cuál es el objetivo principal del diseño de XML?</wording>
+        <choices>
+            <choice>Sustituir al lenguaje HTML en la web</choice>
+            <choice correct="yes">Transportar y almacenar datos de forma legible</choice>
+            <choice>Ejecutar scripts en el lado del cliente</choice>
+            <choice>Formatear el texto de documentos impresos</choice>
+        </choices>
+    </question>
+    <question id="2">
+        <wording>¿Qué regla de sintaxis es obligatoria en todo documento XML?</wording>
+        <choices>
+            <choice>Tener al menos dos elementos raíz</choice>
+            <choice>Usar obligatoriamente el alfabeto latino</choice>
+            <choice correct="yes">Todas las etiquetas deben estar correctamente cerradas</choice>
+            <choice>No permitir el uso de atributos en etiquetas</choice>
+        </choices>
+    </question>
+    <question id="3">
+        <wording>¿Cómo se define un elemento opcional (cero o una vez) en un DTD?</wording>
+        <choices>
+            <choice>Usando el símbolo +</choice>
+            <choice>Usando el símbolo *</choice>
+            <choice correct="yes">Usando el símbolo ?</choice>
+            <choice>No se pone ningún símbolo</choice>
+        </choices>
+    </question>
+    <question id="4">
+        <wording>¿Qué diferencia hay entre un documento "Bien Formado" y uno "Válido"?</wording>
+        <choices>
+            <choice>Son conceptos idénticos en la especificación XML</choice>
+            <choice correct="yes">El válido cumple con un DTD; el bien formado solo con la sintaxis</choice>
+            <choice>El válido no puede contener atributos</choice>
+            <choice>El bien formado requiere una hoja de estilos XSLT</choice>
+        </choices>
+    </question>
+    <question id="5">
+        <wording>¿Qué es un espacio de nombres (Namespace) en XML?</wording>
+        <choices>
+            <choice>Un directorio donde se guardan los archivos .xml</choice>
+            <choice correct="yes">Un mecanismo para evitar conflictos de nombres de elementos</choice>
+            <choice>Una etiqueta reservada para el elemento raíz</choice>
+            <choice>El nombre del servidor donde se aloja el documento</choice>
+        </choices>
+    </question>
+    <question id="6">
+        <wording>¿Qué tipo de entidad se usa para representar el carácter menor que (&lt;) en XML?</wording>
+        <choices>
+            <choice>&amp;amp;</choice>
+            <choice correct="yes">&amp;lt;</choice>
+            <choice>&amp;gt;</choice>
+            <choice>&amp;quot;</choice>
+        </choices>
+    </question>
+    <question id="7">
+        <wording>¿Qué indica la palabra reservada EMPTY en la declaración de un elemento DTD?</wording>
+        <choices>
+            <choice>Que el elemento solo puede contener espacios en blanco</choice>
+            <choice correct="yes">Que el elemento no puede tener contenido (hijos ni texto)</choice>
+            <choice>Que el elemento es opcional para el usuario</choice>
+            <choice>Que el elemento borra los datos anteriores</choice>
+        </choices>
+    </question>
+    <question id="8">
+        <wording>¿Cuál es la función del prólogo en un documento XML?</wording>
+        <choices>
+            <choice correct="yes">Indicar la versión y la codificación de caracteres</choice>
+            <choice>Definir el estilo visual del documento</choice>
+            <choice>Listar los nombres de los autores del archivo</choice>
+            <choice>Cerrar el elemento raíz al final del archivo</choice>
+        </choices>
+    </question>
+    <question id="9">
+        <wording>¿Qué significa el valor #REQUIRED en la declaración de un atributo (ATTLIST)?</wording>
+        <choices>
+            <choice>Que el atributo tiene un valor por defecto fijo</choice>
+            <choice>Que el atributo es opcional</choice>
+            <choice correct="yes">Que el autor debe incluir obligatoriamente el atributo en el
+                elemento</choice>
+            <choice>Que el atributo solo acepta números enteros</choice>
+        </choices>
+    </question>
+    <question id="10">
+        <wording>¿Cuál es la estructura jerárquica de un documento XML?</wording>
+        <choices>
+            <choice>Estructura de red</choice>
+            <choice correct="yes">Estructura de árbol</choice>
+            <choice>Estructura lineal o secuencial</choice>
+            <choice>Estructura relacional</choice>
+        </choices>
+    </question>
+    <question id="11">
+        <wording>¿Qué tipo de datos en un DTD permite solo letras y números sin procesar?</wording>
+        <choices>
+            <choice>#PCDATA</choice>
+            <choice correct="yes">CDATA</choice>
+            <choice>IDREF</choice>
+            <choice>ENTITY</choice>
+        </choices>
+    </question>
+    <question id="12">
+        <wording>¿Cuál es el límite de elementos raíz en un archivo XML?</wording>
+        <choices>
+            <choice>No hay límite</choice>
+            <choice>Mínimo dos</choice>
+            <choice correct="yes">Exactamente uno</choice>
+            <choice>Uno por cada esquema DTD</choice>
+        </choices>
+    </question>
+    <question id="13">
+        <wording>¿Para qué se utiliza una instrucción de procesamiento (&lt;? ... ?&gt;)?</wording>
+        <choices>
+            <choice>Para comentar líneas de código</choice>
+            <choice correct="yes">Para pasar información a la aplicación que lee el XML</choice>
+            <choice>Para definir nuevas etiquetas de usuario</choice>
+            <choice>Para validar el documento contra un DTD</choice>
+        </choices>
+    </question>
+    <question id="14">
+        <wording>¿Cómo se define una lista de valores posibles para un atributo en un DTD?</wording>
+        <choices>
+            <choice>Usando el símbolo #LIST</choice>
+            <choice correct="yes">Enumerando los valores entre paréntesis separados por |</choice>
+            <choice>Definiendo un elemento hijo para cada valor</choice>
+            <choice>No es posible limitar valores en un DTD</choice>
+        </choices>
+    </question>
+    <question id="15">
+        <wording>¿Qué es un analizador (Parser) XML?</wording>
+        <choices>
+            <choice>Un programa que traduce XML a binario</choice>
+            <choice correct="yes">Un software que lee el documento y verifica su estructura</choice>
+            <choice>Un virus informático que borra etiquetas</choice>
+            <choice>Un editor de texto especializado en código</choice>
+        </choices>
+    </question>
+    <question id="16">
+        <wording>¿Qué símbolo indica que un elemento puede aparecer de forma ilimitada (0 o más
+            veces)?</wording>
+        <choices>
+            <choice>?</choice>
+            <choice>+</choice>
+            <choice correct="yes">*</choice>
+            <choice>!</choice>
+        </choices>
+    </question>
+    <question id="17">
+        <wording>¿Puede un nombre de etiqueta XML empezar por un número?</wording>
+        <choices>
+            <choice>Sí, si el número va seguido de una letra</choice>
+            <choice correct="yes">No, nunca</choice>
+            <choice>Solo si se define así en el DTD</choice>
+            <choice>Solo en documentos de versión 1.1</choice>
+        </choices>
+    </question>
+    <question id="18">
+        <wording>¿Qué significa el término "Atributo Normalizado"?</wording>
+        <choices>
+            <choice>Un atributo que ha sido traducido al inglés</choice>
+            <choice correct="yes">Un atributo donde los espacios en blanco se han procesado</choice>
+            <choice>Un atributo que no tiene valor</choice>
+            <choice>Un atributo que se repite en todos los elementos</choice>
+        </choices>
+    </question>
+    <question id="19">
+        <wording>¿Para qué sirve el atributo reservado 'xml:lang'?</wording>
+        <choices>
+            <choice>Para traducir automáticamente el documento</choice>
+            <choice correct="yes">Para identificar el idioma del contenido del elemento</choice>
+            <choice>Para cambiar el lenguaje de programación del servidor</choice>
+            <choice>Es un error, ese atributo no existe</choice>
+        </choices>
+    </question>
+    <question id="20">
+        <wording>¿Cuál es la principal limitación de un DTD frente a un XML Schema (XSD)?</wording>
+        <choices>
+            <choice>El DTD es más difícil de escribir</choice>
+            <choice correct="yes">El DTD no soporta tipos de datos complejos ni rangos numéricos</choice>
+            <choice>El DTD no es compatible con navegadores modernos</choice>
+            <choice>El DTD solo permite 10 elementos por archivo</choice>
+        </choices>
+    </question>
+</test>

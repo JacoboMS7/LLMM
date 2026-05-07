@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto XML Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <h1 id="titulo-test">XML Quiz</h1>
+        <div class="barra-herramientas">
+          <select id="selector-idioma" onchange="cambiarIdioma()">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+          <div id="cronometro">00:00</div>
+        </div>
+      </header>
+
+      <div id="pantalla-inicio">
+        <button class="btn-principal" onclick="cargarCuestionario()">
+          Empezar / Start
+        </button>
+      </div>
+
+      <main id="pantalla-quiz" class="oculto">
+        <div id="pregunta-contenedor">
+          <p id="texto-pregunta"></p>
+          <div id="opciones-lista"></div>
+        </div>
+        <div class="navegacion">
+          <button id="btn-siguiente" onclick="siguientePregunta()" disabled>
+            Siguiente
+          </button>
+        </div>
+      </main>
+
+      <div id="pantalla-resultados" class="oculto">
+        <h2 id="texto-resultado">Resultado</h2>
+        <p id="puntuacion-final"></p>
+        <button
+          id="btn-reiniciar"
+          class="btn-principal"
+          onclick="location.reload()"
+        >
+          Reiniciar
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

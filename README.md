@@ -71,6 +71,12 @@ Este repositorio incluye actividades llevadas a cabo en el módulo de lenguaje d
 | [Ejercicio 8](https://jacoboms7.github.io/LLMM/ejercicio8/ejercicio8(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio8/ejercicio8(js).html) | Este es el ejercicio 8 de JS |
 | [Ejercicio 9](https://jacoboms7.github.io/LLMM/ejercicio9/ejercicio9(js).html) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/ejercicio9/ejercicio9(js).html) | Este es el ejercicio 9 de JS |
 
+## Práctica preguntas y respuestas 
+
+| Ejercicio | Código | Descripción |
+|-----------|--------|-------------|
+| [Práctica](https://practicatercertrimestre.netlify.app/) | [Código](https://github.com/JacoboMS7/LLMM/blob/main/practicaTercerTrimestre) | Esta es la práctica del tercer trimestre |
+
 ## Tema 4 - XML
 | Ejercicio | Código | Descripción |
 |-----------|--------|-------------|
